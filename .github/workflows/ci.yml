@@ -52,7 +52,7 @@ jobs:
         with:
           node-version:  10
       - name: Setup Foreman Plugin
-        uses: kamils-iRonin/setup-foreman-plugin@master
+        uses: kamils-iRonin/setup-foreman-plugin@371d9fe
         with:
           plugin-name: ${{ env.FOREMAN_PLUGIN_NAME }}
       - name: Run plugin tests
